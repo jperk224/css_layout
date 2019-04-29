@@ -21,7 +21,9 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-/* NAV BAR */
+/**************************************************************************
+*   NAV BAR 
+**************************************************************************/
 
 .main-nav {
     display: flex;
@@ -95,3 +97,21 @@ body {
     background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
     background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
 }
+
+/**************************************************************************
+*   MEDIA QUERY
+**************************************************************************/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main-nav {
+        font-size: 0.4em;
+    }
+}
+
+/* TODO --> Collapse for < 300px */ 
