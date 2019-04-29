@@ -4,35 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CS Layout</title>
+    <title>CSS Layout</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <div class="zone green">
-        <nav id="header">
-          <!-- navbar SVG logo -->
-          <div class="logo">
-            <svg width="112" height="28" viewBox="0 0 112 34">
-              <p>Header Logo</p>
-            </svg>
-          </div>
-          <hr />
-          <!-- user account -->
-          <div class="account">
-            <div>Welcome User</div>
-            <div><strong>My Account</strong></div>
-          </div>
-          <hr />
-          <!-- shopping cart -->
-          <div class="cart">
-            <svg width="24" height="24" viewBox="0 0 34 34">
-              <p>Cart</p>
-            </svg>
-          </div>
-          <hr />
-        </nav>
-      </div>
+      <nav class="zone green">
+        <ul class="main-nav">
+          <li><a href="">Link 1</a></li>
+          <li><a href="">Link 2</a></li>
+          <li><a href="">Link 3</a></li>
+          <li class="push"><a href="">Link 4</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="zone red">Cover</div>
     <div class="zone blue">Project Grid</div>
