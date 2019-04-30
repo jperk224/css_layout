@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: arial;
 }
 
 .zone {
@@ -45,6 +46,12 @@ body {
     margin-left: auto;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 /**************************************************************************
 *   COVER
 **************************************************************************/
@@ -54,6 +61,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 50vh;
+}
+
+.cover {
+    width: 20rem;
 }
 
 /**************************************************************************
